@@ -1,66 +1,77 @@
 * {
-    margin: 0;
-    padding: 0;
-    background: black;
+  margin: 0;
+  padding: 0;
+  background: black;
 }
 
 html { 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
- }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 #root {
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
+height: 100vh;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
 }
 
 .title {
-  font-size: 80px;
-  text-align: center;
-  margin-top: 5%;
-  padding-bottom: 5%;
-  font-family: courier;
+font-size: 80px;
+text-align: center;
+margin-top: 5%;
+padding-bottom: 5%;
+font-family: courier;
 }
 
 .break {
-  float: left;
-  margin-left: 25%;
-  margin-top: -15%;
+float: left;
+margin-left: 25%;
+margin-top: -15%;
 }
 
 .session {
-  float: right;
-  margin-right: 25%;
-  margin-top: -15%;
+float: right;
+margin-right: 25%;
+margin-top: -15%;
 }
 
 #reset {
-  margin-right: 38%;
-  margin-top: 2%;
+margin-right: 38%;
+margin-top: 2%;
 }
 
-#start_stop {
-  margin-top: 2%;
-  float: left;
-  margin-left: 45%;
- }
+.play {
+margin-top: 2%;
+float: left;
+margin-left: 45%;
+}
+
+.pause {
+margin-top: 2%;
+float: left;
+margin-left: 2%;
+}
+
+#reset {
+margin-top: 2%;
+float: left;
+margin-left: 3%;
+}
 
 button {
-  color: white;
-  border: none;
+color: white;
+border: none;
 }
 
 .controls {
- font-family: verdana;
-  margin-top: 15%;
- }
-
-#time-left {
-  font-size: 30px;
+font-family: verdana;
+margin-top: 15%;
 }
 
+#time-left {
+font-size: 30px;
+}
