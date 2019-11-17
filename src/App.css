@@ -17,6 +17,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 color: white;
+font-size: 1rem;
 }
 
 .title {
@@ -39,27 +40,23 @@ margin-right: 25%;
 margin-top: -15%;
 }
 
-#reset {
-margin-right: 38%;
-margin-top: 2%;
-}
-
 .play {
 margin-top: 2%;
-float: left;
-margin-left: 45%;
 }
 
 .pause {
 margin-top: 2%;
-float: left;
 margin-left: 2%;
 }
 
 #reset {
 margin-top: 2%;
-float: left;
 margin-left: 3%;
+}
+
+.controlPanel {
+text-align: center;
+padding: 20px;
 }
 
 button {
@@ -74,4 +71,22 @@ margin-top: 15%;
 
 #time-left {
 font-size: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+#root {
+  font-size: .5rem;
+}
+}
+
+@media only screen and (max-width: 420px) {
+.title {
+  font-size: 40px;
+}
+#root{
+  font-size: .25rem;
+}
+.fa {
+  font-size: 20px;
+}
 }
